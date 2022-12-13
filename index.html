@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifrado César</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+    <!--  <div> CIFRADO CÉSAR</div>-->
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Quieres cifrar un mensaje ?</h2>
+      
+      <label class="controles" for="msgacifrar">Ingresa tu mensaje Aquí:</label>
+      <input class="controles" id="msgacifrar" placeholder="Ingrese el texto" type="text"><!-- Donde se ingresará el texto original a cifrar-->
+      <p>Desliza la llave</p>
+      <input id="rango" type="range" value="2" min="1" max="55" oninput="this.nextElementSibling.value=this.value">
+      <!--atributo oninput, para que cada vez que el usuario modifique el scroll se reinicie el proximo elemento a crear y se canbia al valor del value=2-->
+      <output class="controles" id="posiciones">2</output> <!--Output, Etiqueta del elemento de salida, se indica el valor del rango-->
+       
+      <output class="controles" id="msgcifrado"></output> <!--Muestra el texto cifrado-->
+       
+      <button class="boton" id="botonEncriptar" type="button">CIFRAR</button>
+      <button class="boton" id="botonDesencriptar" type="button">DESCIFRAR</button>
+      <p>NOTA: No olvides entregarle la llave a tu amig@ para que logre descifrar tu mensaje ;)</p>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+:root { /* :root crea variables
+    
+    --color-terminal: #6e384d; /*Color de la terminal*/
+    --borde-redondo: 10px;/*borde redondo para varios componentes*/
+}
+
+* { /* le da estilo letra a todo el html*/
+    font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    background-image: url("./Imagenes/Mensajería.jpg");
+    background-position: center ;
+    background-color: rgb(244, 213, 223);
+}
+
+h1 { /*El título tiene margen predefinido, se indica 0 */
+    font-size: 60px;
+    text-align: center;/*Estilos del Título */
+      
+}
+.formulario {
+    width: 400px;
+    background-color: rgb(243, 210, 210);
+    padding: 55px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'Gill Sans';
+    color: rgb(21, 121, 121);
+ }
+
+.controles {
+    width: 100%;
+    background:  rgb(243, 210, 210);
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    display: grid;
+}
+
+#msgacifrar {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#msgcifrado {   /*Estilo Texto y caja texto a cifrar/descifrar */
+    text-transform: uppercase;
+    background-color: rgb(21, 121, 121);
+    padding: 5px 120px;
+    color: #87eeee;
+    width: 150px;   /* Ancho del contenedor*/
+    height: 80px;  /* Alto total del contenedor*/
+    border-radius: var(--borde-redondo);
+    border-bottom-right-radius: var(--borde-redondo);
+    text-align: justify;
+}
+
+.rango {
+    /*Para la barrita  */
+    margin-top: 6px;
+    grid-template-columns: 1fr 30px;
+    /*El valor del rango q tome 30px */
+    scrollbar-color: #87eeee;
+}
+
+input[type='range'] {
+    /*Estilo barra range*/
+    appearance: none;
+    border-radius: var(--borde-redondo);
+    background: var(--color-terminal);
+    margin: 0;
+    padding: 0 5px;
+    /* */
+    height: 18px;
+    /*altura */
+    text-align: center;
+}
+
+input[type='range']::-webkit-slider-thumb { /* Estilo indicador de rango */
+    cursor: pointer;
+    appearance: none;    /*Para que no tenga los estilos por defecto */
+    background: rgb(13, 28, 21);    /*Color del rango */
+    border-radius: 50%;
+    height: 15px;
+    /*altura */
+    width: 15px;
+    /*ancho */
+}
+
+output {     /*Estilo rango mostrada en numero */
+    color: rgb(6, 22, 24);
+    /*Color Nº llave */
+    font-style: bold;
+    font-size: 20pt
+}
+
+.boton {  /*Estilo Bottones*/
+     background: rgb(178, 245, 236);
+    /*color de fondo*/
+    font-style: normal;
+    font-size: larger;
+    color: #0a2239c4;
+    /*color letra*/
+    height: 35px;
+    /*altura */
+    width: 150px;
+    border-radius: var(--borde-redondo);
+    margin: 18px 0 0;
+    padding: 5px;
+    border-style: dashed;
+    cursor: pointer;
+
+}
+.boton:hover { /*Estilo sobre los Bottones */
+    background: rgb(194, 227, 222);
+    /*color de fondo*/
+    font-style: normal;
+    font-size: larger;
+    color: #073663c4;
+    /*color letra*/
+    height: 35px;
+    /*altura */
+    width: 150px;
+    border-radius: var(--borde-redondo);
+    margin: 18px 0 0;
+    padding: 5px;
+    border-style: solid;
+}
