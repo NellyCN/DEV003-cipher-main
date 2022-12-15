@@ -1,75 +1,106 @@
-
-
-:root {
-    --color-terminal: #080407;
-    --borde-redondo: 10px;
-}
-
-*{
-    font-family: 'Courier New', Courier, monospace
-}
-
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3fc5c5c4;
-    color: rgb(11, 43, 44);
+    background-image: url("./Imagenes/Mensajería.jpg");
+    background-position: center ;
+    background-color: rgb(244, 213, 223);
 }
-
-input, button {
-    border: none;
-    outline: none;
+header {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(5, 53, 53);
 }
-
-main {
-    padding: 25px;
-    box-shadow: 8px 8px 35px 0px rgba(0 0 0 / 75%);
-    border-radius: var(--borde-redondo);
-
+h2 { /*El título tiene margen predefinido, se indica 0 */
+    font-size: 30px;
+    text-align: center;/*Estilos del Título */
 }
-h1{
-    margin: 0;
-}
-#input-original, #resultado {
-    background-color: var(--color-terminal);
-    width: -webkit-fill-available;
-}
-#input-original {
-    margin: 10px 0 0;
+.formulario {
+    width: 400px;
+    background-color: rgb(243, 210, 210);
+    padding: 50px;
+    margin: auto;
+    margin-top: 50px; /*Margen de arriba del doc*/
+    border-radius: 15px; 
+    font-family: 'Gill Sans';
+    color: rgb(21, 121, 121); /*Color texto form*/
+ }
+.controles {
+    width: 100%;
+    background:  rgb(243, 210, 210);
     padding: 10px;
-    color: white;
-    border-top-left-radius: var(--borde-redondo);
-    border-top-right-radius: var(--borde-redondo);
+    border-radius: 4px; /* Borde mensaje de texto*/
+    margin-bottom: 2px;
+    display: grid;
 }
-#resultado {
-    height: 20px;
-    color: #5af78d;
-    padding: 0 10px 10px;
-    border-bottom-left-radius: var(--borde-redondo);
+#msgacifrar {
+    text-transform: uppercase;
+    text-align: center;
+}
+#msgcifrado {   /*Estilo Texto y caja texto a cifrar/descifrar */
+    text-transform: uppercase;
+    background-color: rgb(21, 121, 121);
+    padding: 5px 120px;
+    color: #87eeee;
+    width: 150px;   /* Ancho del contenedor*/
+    height: 80px;  /* Alto total del contenedor*/
+    border-radius: var(--borde-redondo);
     border-bottom-right-radius: var(--borde-redondo);
+    text-align: justify;
 }
 .rango {
-    margin-top: 10px;
-    display: grid;
+    /*Para la barrita  */
+    margin-top: 6px;
     grid-template-columns: 1fr 30px;
-    text-align: center;
-    align-items: center;
+    /*El valor del rango q tome 30px */
+    scrollbar-color: #87eeee;
 }
 input[type='range'] {
-  
-    border-radius: var(--borde-redondo);
-    background:var(--color-terminal);
-    margin: 0;
+    /*Estilo barra range*/
+    width: 200px;
     padding: 0 5px;
-    height: 18px;
-}
-input[type='range']::-webkit-slider-thumb {  /* */
-    cursor:pointer;
-   
-    background: white;
+ }
+input[type='range']::-webkit-slider-thumb { /* Estilo indicador de rango */
+    cursor: pointer;
+    appearance: none;    /*Para que no tenga los estilos por defecto */
+    background: rgb(13, 28, 21);    /*Color del rango */
     border-radius: 50%;
     height: 15px;
+    /*altura */
     width: 15px;
+    /*ancho */
+}
+output {     /*Estilo rango mostrada en numero */
+    color: rgb(6, 22, 24);
+    /*Color Nº llave */
+    font-style: bold;
+    font-size: 20pt
+}
+.boton {  /*Estilo Bottones*/
+     background: rgb(178, 245, 236);
+    /*color de fondo*/
+    font-style: normal;
+    font-size: larger;
+    color: #0a2239c4;
+    /*color letra*/
+    height: 35px;
+    /*altura */
+    width: 150px;
+    border-radius: var(--borde-redondo);
+    margin: 18px 0 0;
+    padding: 5px;
+    border-style: dashed;
+    cursor: pointer;
+}
+.boton:hover { /*Estilo sobre los Bottones */
+    background: rgb(194, 227, 222);
+    /*color de fondo*/
+    font-style: normal;
+    font-size: larger;
+    color: #073663c4;
+    /*color letra*/
+    height: 35px;
+    /*altura */
+    width: 150px;
+    border-radius: var(--borde-redondo);
+    margin: 18px 0 0;
+    padding: 5px;
+    border-style: solid;
 }

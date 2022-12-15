@@ -1,25 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cifrado César</title>
-    <link href="style.css" rel="stylesheet" />
-    <script src="index.js" type="module"></script> <!-- -->
-  </head>
-  <body>
-    <main id="root">
-      <h1>Qué vamos a encriptar hoy?!</h1>
-      <form id="cifrador" autocomplete="off"> 
-            <input id="input-original" spellcheck="false" placeholder="Ingrese el texto" type="text" name="text">
-      </form>
-      <div id="resultado"></div>
-      <div class="rango">
-            <input id="rango" type="range" value="10" min="1" max="20" oninput="this.nextElementSibling.value=this.value">
-            <output>10</output> 
-      </div>
-    </main>
-   
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifrado César</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header>
+   <nav>WEB DE MENSAJERÍA</nav>
+  </header>
+
+  <main>
+    <section class="formulario">
+      <h2>Quieres cifrar un mensaje ?</h2>
+      <p class="controles" for="msgacifrar">Ingresa tu mensaje Aquí:</p>
+      <input class="controles" id="msgacifrar" placeholder="Ingrese el texto" type="text"><!-- Donde se ingresará el texto original a cifrar-->
+      <p class="controles"> Para elegir tu clave, desliza Aquí ;)</p>
+      <input id="rango" type="range" value="2" min="1" max="55" oninput="this.nextElementSibling.value=this.value">
+      <!--atributo oninput, para que cada vez que el doc se actualice, el scroll se reinicie al valor definido value=2-->
+      <output class="controles" id="posiciones">2</output> <!--Output, Etiqueta del elemento de salida, se indica el valor del rango-->
+      <output class="controles" id="msgcifrado"></output> <!--Muestra el texto cifrado-->
+      <button class="boton" id="botonEncriptar" type="button">CIFRAR</button>
+      <button class="boton" id="botonDesencriptar" type="button">DESCIFRAR</button>
+      <p>NOTA: Recuerda indicarle la clave a tu amig@ para que logre descifrar tu mensaje ;)</p>
+    </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
