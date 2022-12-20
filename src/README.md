@@ -12,3 +12,4 @@ Para que funcione nuestra web, ambas partes deberán tener una llave, la cual es
 ## Función:
 
 La interfaz básicamente contiene un formulario inicialmente con una caja de texto donde el usuario ingresará su mensaje a cifrar, posteriormente encontrará una barra para deslizar (scroll bar), que será "la llave" que indicará las posiciones a la derecha para conseguir el cifrado, al deslizarlo se mostrará el valor de la llave al costado. Tendrá que hacer click en el botón "Cifrar" para que el mensaje se muestre cifrado en otra caja de texto, así podrá enviarlo junto con la llave a su amig@ o enamorad@ para que pueda descifrar su mensaje posteriormente realizando el mismo paso inicial de ingresar el mensaje cifrado en la caja de texto inicial, colocar la llave y para este caso, hacer click en el botón "Descifrar", así obtendrá su mensaje descifrado.
+![Prototipo](https://user-images.githubusercontent.com/118828236/208570102-3c7cc00c-835d-46b6-a586-7e7dcb399687.jpeg)
