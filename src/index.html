@@ -1,37 +1,76 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cifrado César</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cifrado César</title>
-  <link href="style.css" rel="stylesheet" />
-</head>
+  <body>
+    <header>
+      <nav>WEB DE MENSAJERÍA</nav>
+    </header>
 
-<body>
-  <header>
-   <nav>WEB DE MENSAJERÍA</nav>
-  </header>
+    <main class="form">
+      <section>
+        <h2>¿Quieres cifrar un mensaje?</h2>
+        <p>Ingresa tu mensaje Aquí:</p>
+        <!-- Donde se ingresará el texto original a cifrar-->
+        <textarea
+          class="entryMsg"
+          type="text"
+          id="msgacifrar"
+          placeholder="Ingrese el texto"
+        >
+        </textarea>
+      </section>
 
-  <main>
-    <section class="formulario">
-      <h2>Quieres cifrar un mensaje ?</h2>
-      <p class="controles" for="msgacifrar">Ingresa tu mensaje Aquí:</p>
-      <input class="controles" id="msgacifrar" placeholder="Ingrese el texto" type="text"><!-- Donde se ingresará el texto original a cifrar-->
-      <p class="controles"> Para elegir tu clave, desliza Aquí ;)</p>
-      <input id="rango" type="range" value="2" min="1" max="55" oninput="this.nextElementSibling.value=this.value">
-      <!--atributo oninput, para que cada vez que el doc se actualice, el scroll se reinicie al valor definido value=2-->
-      <output class="controles" id="posiciones">2</output> <!--Output, Etiqueta del elemento de salida, se indica el valor del rango-->
-      <output class="controles" id="msgcifrado"></output> <!--Muestra el texto cifrado-->
-      <button class="boton" id="botonEncriptar" type="button">CIFRAR</button>
-      <button class="boton" id="botonDesencriptar" type="button">DESCIFRAR</button>
-      <p>NOTA: Recuerda indicarle la clave a tu amig@ para que logre descifrar tu mensaje ;)</p>
-    </section>
-  </main>
-  <footer>
-  </footer>
-  <script src="index.js" type="module"></script>
-</body>
+      <section class="key">
+        <p>Para elegir tu clave, desliza Aquí ;)</p>
+      </section>
 
+      <section class="selectKey">
+        <input
+          id="rango"
+          type="range"
+          value="2"
+          min="1"
+          max="55"
+          oninput="this.nextElementSibling.value=this.value"
+        />
+        <!--atributo oninput, para que cada vez que el doc se actualice, el scroll se reinicie al valor definido value=2-->
+        <output id="posiciones">1</output>
+      </section>
+
+      <!--Output, Etiqueta del elemento de salida, se indica el valor del rango-->
+      <section>
+        <button class="buttons" id="botonEncriptar" type="button">
+          CIFRAR
+        </button>
+        <button class="buttons" id="botonDesencriptar" type="button">
+          DESCIFRAR
+        </button>
+      </section>
+
+      <section class="showMsg">
+        <!--Muestra el texto cifrado-->
+
+        <textarea
+          class="msgcifrado"
+          type="text"
+          id="msgcifrado"
+          placeholder="Visualiza Aquí tu mensaje cifrado o descifrado"
+        >
+        </textarea>
+        <p>
+          NOTA: Recuerda indicarle la clave a tu amig@ para que logre descifrar
+          tu mensaje =D
+        </p>
+      </section>
+    </main>
+    <footer><p>Copyright 2022 © Elaborado por Nelly Cumpa</p></footer>
+    <script src="index.js" type="module"></script>
+  </body>
 </html>
