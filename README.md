@@ -21,5 +21,5 @@ Inicialmente se realizó un prototipo de baja fidelidad a mano alzada.
 
 ## Desarrollo del Proyecto
 
-Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** y desplegado en Github pages, puedes visitarlo aquí: [Mensajería Web - "With Friends"](https://nellycn.github.io/DEV003-cipher-main/)
+Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** y desplegado en Github pages, puedes visitarlo aquí: [Mensajería Web - "With Friends"](https://nellycn.github.io/DEV003-cipher-main/src/)
 
