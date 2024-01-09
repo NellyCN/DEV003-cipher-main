@@ -1,7 +1,7 @@
 ## README CIFRADO CÉSAR
 
-https://img.shields.io/badge/:badgeContent
-## Descripción
+  <img src= https://img.shields.io/badge/:badgeContent>
+
 
 Web de mensajería encubierta para parejas y amig@s que desean mantener en privacidad sus conversaciones. 
 
