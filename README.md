@@ -3,7 +3,7 @@
 ![Título y Portada](<src/Imagenes/Portada Web Mensajeria.png>)
 
 <!-- *[Insignias](#insignias) -->
-##Índice
+## Índice
 
 *[Objetivo del proyecto](#objetivo-del-proyecto)
 
@@ -19,8 +19,8 @@
 
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
+# Mensajería Web - "With Friends"
 
-**# Mensajería Web - "With Friends"**
 
 ## Objetivo del proyecto:
 
