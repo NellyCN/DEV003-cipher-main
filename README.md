@@ -20,7 +20,7 @@
 *[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
 
-<em> # Web de Mensajería </em>
+**# Mensajería Web - "With Friends"**
 
 ## Objetivo del proyecto:
 
