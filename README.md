@@ -28,7 +28,7 @@ Esta web ha sido creada con el objetivo de mantener una comunicación encubierta
 
 ## Estado del proyecto:
 
- :white_check_mark: Finalizado :white_check_mark:
+✅ **_Finalizado_** ✅
 
 ## 🚀 Características de la aplicación y Funcionalidades:
 
