@@ -55,7 +55,7 @@ Esta **"Web de Mensajería"** puedes verla desde cualquier dispositivo, ya que e
 
 Puedes visitarla y probarla, aquí: [Mensajería Web - "With Friends"](https://nellycn.github.io/DEV003-cipher-main/src/)
 
-🛠️ ## Tecnologías utilizadas:
+## 🛠️ Tecnologías utilizadas:
 
 Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** y desplegado en Github pages
 
