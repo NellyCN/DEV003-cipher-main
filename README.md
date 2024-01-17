@@ -9,7 +9,7 @@
 
 *[Estado del proyecto](#Estado-del-proyecto)
 
-*[Características de la aplicación](#Características-de-la-aplicación)
+*[Características de la aplicación y Funcionalidades](#Características-de-la-aplicación)
 
 *[Diseño de Prototitpo](#Diseño-de-Prototitpo)
 
@@ -30,14 +30,14 @@ Esta web ha sido creada con el objetivo de mantener una comunicación encubierta
 
 :white_check_mark: Finalizado :white_check_mark:
 
-## Características de la aplicación y Funcionalidades 🚀:
+## 🚀 Características de la aplicación y Funcionalidades:
 
 Para su funcionamiento, ambas partes deberán tener una llave, la cual establecerá el número de posiciones a cifrar de su mensaje, que podrá copiar y enviar a la otra persona por el medio que le convenga; esta llave deberá ser entregada a su amig@ y con ella pueda descifrar el mensaje que le enviaron. Así también el nuevo usuario podría cifrar su respuesta y enviarla a nuestro primer usuario, formando la interacción de ambas personas y sobre todo la comunicación encubierta para lo que necesiten.
 Esta aplicación tiene 3 funcionalidades
 
-:hammer: ### Funcionalidades del proyecto:
+ *### :hammer: Funcionalidades del proyecto:
 
-* Cifrar: En un textarea se ingresará un mensaje, el cual queremos cifrar o descifrar, acción que tendrá que ejecutar el botón**CIFRAR**.
+* Cifrar: En un textarea se ingresará un mensaje, el cual queremos cifrar o descifrar, acción que tendrá que ejecutar el botón **CIFRAR**.
 * Descifrar: Aquí se mostrará el mensaje cifrado o descifrado, acción que tendrá que ejecutar el botón **DESCIFRAR**.
 * key: Se usará como llave de cifrado y descifrado. Esta función se la daremos a el [elemento <input> del tipo "range"](https://developer.mozilla.org/es/docs/Web/HTML/Element/input/range)
 
