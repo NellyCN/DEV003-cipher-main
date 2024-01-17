@@ -28,7 +28,7 @@ Esta web ha sido creada con el objetivo de mantener una comunicación encubierta
 
 ## Estado del proyecto:
 
-✅ **_Finalizado_** ✅
+✅ **_FINALIZADO_** ✅
 
 ## 🚀 Características de la aplicación y Funcionalidades:
 
