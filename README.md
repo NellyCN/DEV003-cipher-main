@@ -40,7 +40,7 @@ Esta aplicación tiene 3 funcionalidades
 
 * Cifrar: En un textarea se ingresará un mensaje, el cual queremos cifrar o descifrar, acción que tendrá que ejecutar el botón **CIFRAR**.
 * Descifrar: Aquí se mostrará el mensaje cifrado o descifrado, acción que tendrá que ejecutar el botón **DESCIFRAR**.
-* key: Se usará como llave de cifrado y descifrado. Esta función se la daremos a el [elemento <input> del tipo "range"](https://developer.mozilla.org/es/docs/Web/HTML/Element/input/range)
+* key: Se usará como llave de cifrado y descifrado. Esta función se la daremos a el [elemento < input > del tipo "range"](https://developer.mozilla.org/es/docs/Web/HTML/Element/input/range)
 
 ## Diseño de Prototitpo:
 
