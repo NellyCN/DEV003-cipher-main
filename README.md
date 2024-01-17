@@ -30,12 +30,12 @@ Esta web ha sido creada con el objetivo de mantener una comunicación encubierta
 
 :white_check_mark: Finalizado :white_check_mark:
 
-## Características de la aplicación y demostración 🚀:
+## Características de la aplicación y Funcionalidades 🚀:
 
 Para su funcionamiento, ambas partes deberán tener una llave, la cual establecerá el número de posiciones a cifrar de su mensaje, que podrá copiar y enviar a la otra persona por el medio que le convenga; esta llave deberá ser entregada a su amig@ y con ella pueda descifrar el mensaje que le enviaron. Así también el nuevo usuario podría cifrar su respuesta y enviarla a nuestro primer usuario, formando la interacción de ambas personas y sobre todo la comunicación encubierta para lo que necesiten.
 Esta aplicación tiene 3 funcionalidades
 
-### :hammer: Funcionalidades del proyecto:
+:hammer: ### Funcionalidades del proyecto:
 
 * Cifrar: En un textarea se ingresará un mensaje, el cual queremos cifrar o descifrar, acción que tendrá que ejecutar el botón**CIFRAR**.
 * Descifrar: Aquí se mostrará el mensaje cifrado o descifrado, acción que tendrá que ejecutar el botón **DESCIFRAR**.
@@ -49,13 +49,13 @@ Inicialmente se realizó un prototipo de baja fidelidad a mano alzada.
 
 ![Prototipo baja fidelidad](<src/Imagenes/Prototipo baja fidelidad.jpeg>)
 
-## :computer: Acceso al proyecto:
+:computer: ## Acceso al proyecto:
 
 Esta **"Web de Mensajería"** puedes verla desde cualquier dispositivo, ya que es responsive, por lo cual le permitirá usarla en su móvil, tablet o Computador escritorio.
 
 Puedes visitarla y probarla, aquí: [Mensajería Web - "With Friends"](https://nellycn.github.io/DEV003-cipher-main/src/)
 
-## 🛠️ Tecnologías utilizadas:
+🛠️ ## Tecnologías utilizadas:
 
 Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** y desplegado en Github pages
 
