@@ -57,7 +57,7 @@ Puedes visitarla y probarla, aquí: [Mensajería Web - "With Friends"](https://n
 
 ## 🛠️ Tecnologías utilizadas:
 
-Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** y desplegado en Github pages
+Este proyecto **Cifrado César**, se desarrolló en **HTML semántico**, **CSS** y **JavaScript** es responsive, puedes verlo y usarlo desde cualquier dispositivo, y ha sido desplegado en Github pages.
 
 ## Personas-Desarrolladores del Proyecto
 
